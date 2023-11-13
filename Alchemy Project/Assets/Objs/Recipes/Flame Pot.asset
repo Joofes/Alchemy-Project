@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9f3e635fbf0284596ba1821e0e8091, type: 3}
+  m_Name: Flame Pot
+  m_EditorClassIdentifier: 
+  itemOne: {fileID: 11400000, guid: 38dbdeb112b7ab94eaf1753e5730c328, type: 2}
+  itemTwo: {fileID: 11400000, guid: 3d8786a7cd1879943a10b1781ff6cac3, type: 2}
+  outputItem: {fileID: 11400000, guid: 1957dbec7bb1a9c40b58840a4b71c8d7, type: 2}
