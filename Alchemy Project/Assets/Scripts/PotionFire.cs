@@ -30,7 +30,7 @@ public class PotionFire : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && inv.potions.Count > 0 && !menu.activeInHierarchy) // check if menu is open, don't fire if it is
         {
             
-            GameObject pot = Instantiate(firePot);
+            GameObject pot = Instantiate(equippedPot.potionPrefab);
             inv.RemoveItem(equippedPot);
             pot.transform.position = transform.position;
             pot.GetComponent<Rigidbody2D>().AddForce(mouseDir * fireForce);
