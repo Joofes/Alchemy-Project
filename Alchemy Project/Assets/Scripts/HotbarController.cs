@@ -21,7 +21,7 @@ public class HotbarController : MonoBehaviour
         {
             if (Input.GetKeyDown(hotbarKeys[i]))
             {
-                Debug.Log("Use item: " + i);
+                hotbarSlots[i].transform.GetChild(i).GetComponent<Image>().color = Color.yellow;
                 return;
             }
         }
@@ -31,7 +31,7 @@ public class HotbarController : MonoBehaviour
     {
         for(int i = 0; i < HotbarSlotSize; i++)
         {
-            Image slot = gameObject.GetComponentInChildren<Image>();
+            Image slot = gameObject.transform.GetComponent<Image>();
             hotbarSlots.Add(slot);
         }
     }
